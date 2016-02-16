@@ -267,7 +267,7 @@ fire_shield:
 combust:
     permission-name: fire
     spell-class: ".targeted.CombustSpell"
-    fire-tick-damage: 5
+    fire-tick-damage: 6
     check-plugins: false
 
 
