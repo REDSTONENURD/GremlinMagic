@@ -18,11 +18,11 @@ str-console-name: Admin
 text-color: 3
 broadcast-range: 20
 spell-icon-slot: -1
-separate-player-spells-per-world: false
+separate-player-spells-per-world: true
 allow-cycle-to-no-spell: false
-always-show-message-on-cycle: false
+always-show-message-on-cycle: true
 only-cycle-to-castable-spells: true
-allow-cast-with-fist: false
+allow-cast-with-fist: true
 cast-with-left-click: true
 cast-with-right-click: false
 ops-have-all-spells: true
