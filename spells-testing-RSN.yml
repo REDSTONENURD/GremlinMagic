@@ -44,9 +44,6 @@ lore_of_flame:
         - book 1
         - blaze_powder 6
     memory: 10
-    prerequisites:
-        - fiery_staff
-        - fiery_potion
     items:
         - fire_grimoire 1
     description: |
@@ -64,9 +61,6 @@ fiery_staff:
     allow-command-casting: false
     bindable: false
     add-to-inventory: false
-    prerequisites:
-        - scroll
-        - spark
     memory: 10
     cost:
         - mana 50
@@ -186,8 +180,6 @@ spark:
         - mana 20
         - blaze_powder 5
         - flame_concoction 3
-    prerequisites:
-        - scroll 
     memory: 3
     allow-command-casting: false
     cooldown: 1
@@ -258,8 +250,6 @@ warmth:
     permission-name: fire
     spell-class: ".targeted.DummySpell"
     cast-item: fire_staff
-    prerequisites:
-        - fiery_grimoire
 
     ###################
     # Advanced spells #
@@ -269,8 +259,6 @@ fire_shield:
     permission-name: fire
     spell-class: ".instant.DummySpell"
     cast-item: fire_staff
-    prerequisites:
-        - fiery_grimoire
 
     #################
     # effect spells #
