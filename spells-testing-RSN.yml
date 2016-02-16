@@ -206,7 +206,7 @@ lava:
         - magma_cream 2
     memory: 2
     allow-command-casting: false
-    cooldown: 120
+    cooldown: 15
     range: 5
     block-type: lava
     apply-physics: true
