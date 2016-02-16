@@ -97,7 +97,7 @@ spellbook:
     description: Create a spellbook that teaches a spell.
     default-uses: -1
     destroy-when-used-up: false
-    spellbook-block: 47
+    spellbook-block: 116
     str-use: "Usage: /cast spellbook <spell> [uses]"
     str-cast-self: You have created a spellbook with the %s spell.
     str-no-spell: You do not know a spell by that name.
