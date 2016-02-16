@@ -21,7 +21,7 @@ predefined-items:
           - "touch, and smokes and sparks"
           - "with pyromantic magics."
     
-    flame_concotion:
+    flame_concoction:
       type: "351:1"
       name: "&4Flame Concotion"
       lore:
@@ -35,6 +35,7 @@ predefined-items:
 #######################
 
 lore_of_flame:
+    permission-name: fire
     spell-class: ".instant.ConjureSpell"
     cast-item: book
     spell-icon: "enchanted_book"
@@ -90,7 +91,6 @@ fire_concoction:
     cost:
         - mana 10
         - 378 1
-        - solar_concoction 4
         - 87 4
         - 115 3
     description: |
@@ -117,7 +117,7 @@ firebreathing:
     spell: combust
     cost:
         - mana 10
-        - flame_concotion 4
+        - flame_concoction 4
     memory: 3
     prerequisites:
         - scroll
@@ -147,6 +147,7 @@ fireproof:
     str-cast-self: You apply magma cream to protect yourself from fire and lava!
     str-fade: The protection of the magma cream wears off.
 smoke:
+    enabled: false
     permission-name: fire
     spell-class: ".targeted.AreaEffectSpell"
     cast-item: fire_staff,blaze_powder
@@ -184,7 +185,7 @@ spark:
     cost:
         - mana 20
         - blaze_powder 5
-        - flame_concotion 3
+        - flame_concoction 3
     prerequisites:
         - scroll 
     memory: 3
@@ -209,7 +210,7 @@ lava:
     spell-icon: lava_bucket
     cost:
         - mana 10
-        - flame_concotion 5
+        - flame_concoction 5
         - magma_cream 2
     memory: 2
     allow-command-casting: false
